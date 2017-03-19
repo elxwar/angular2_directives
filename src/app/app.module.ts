@@ -6,12 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { HighlightDirective } from './highlight.directive';
 import { AlertDirective } from './alert.directive';
+import { UnlessDirective } from './unless.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     HighlightDirective,
-    AlertDirective
+    AlertDirective,
+    UnlessDirective
   ],
   imports: [
     BrowserModule,
